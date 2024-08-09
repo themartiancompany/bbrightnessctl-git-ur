@@ -134,7 +134,7 @@ package() {
     "${_pkgname}"
   make \
     DESTDIR="${pkgdir}" \
-    PREFIX="${_usr}" \
+    PREFIX="/usr" \
     install
 }
 
